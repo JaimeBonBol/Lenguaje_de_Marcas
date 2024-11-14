@@ -3,9 +3,12 @@
 Repositorio en el que se encuentran los módulos que veremos en la asignatura Lenguaje de marcas.
 Los módulos que aparecen son:
 
--:book:XML.
--:book:XSD.
--:book:XQUERY.
--:book:HTML.
+##📚XML.
+
+##📚XSD.
+
+##📚XQUERY.
+
+##📚HTML.
 
 
