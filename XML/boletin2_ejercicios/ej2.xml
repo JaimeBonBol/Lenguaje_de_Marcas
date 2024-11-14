@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE hardware> 
+
+<hardware>
+    <equipo>
+        <nombre>Vibox VII</nombre>
+        <pieza>
+            <nombre>Intel i7 14700F 20-Core CPU</nombre>
+            <tipo>Procesador</tipo>
+            <fabricante>Intel</fabricante>
+            <precio>367,13 €</precio>
+            <caracteristicas>
+                <caracteristica num="1">Velocidad de reloj base de 3.6GHz y una velocidad de impulso turbo de 4.2GHz</caracteristica>
+                <caracteristica num="2">Puede manejar ocho hilos simultáneamente y tiene un ancho de banda de memoria máximo de 45G/s</caracteristica>
+                <caracteristica num="3">Consumo de energia de 95 vatios</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>Nvidia GeForce RTX 3060</nombre>
+            <tipo>Tarjeta gráfica</tipo>
+            <fabricante>Nvidia</fabricante>
+            <precio> 299,88€</precio>
+            <caracteristicas>
+                <caracteristica num="1">12GB GDDR6 RAM</caracteristica>
+                <caracteristica num="2">HDMI 2.1</caracteristica>
+                <caracteristica num="3">DisplayPort 1</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>NVMe M.2</nombre>
+            <tipo>Disco Duro Sólido</tipo>
+            <fabricante>NVM Express Workgroup</fabricante>
+            <precio> 66,99€</precio>
+            <caracteristicas>
+                <caracteristica num="1">1TB de capacidad</caracteristica>
+                <caracteristica num="2">Rápido inicio de PC</caracteristica>
+                <caracteristica num="3">Guardado de archivos más rápido</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>RAM 32 Go DDR4 3600MHz</nombre>
+            <tipo>Memoria RAM</tipo>
+            <fabricante>Corsair Vengeance</fabricante>
+            <precio> 55,78€</precio>
+            <caracteristicas>
+                <caracteristica num="1">Brinda mayores tasas de transferencia y menos voltaje</caracteristica>
+                <caracteristica num="2">Reduce el voltaje en un 40% y aumenta el rendimiento y el ancho de banda en un 50%</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>Vibox Infinity ARGB 240mm</nombre>
+            <tipo>Enfriador de agua de rendimiento CPU</tipo>
+            <fabricante>Vibox</fabricante>
+            <precio> 149,99€</precio>
+            <caracteristicas>
+                <caracteristica num="1">Potencia de diseño térmico (TDP) de 280W</caracteristica>
+                <caracteristica num="2">Capaz de aguantar unas temperaturas de fusión de 1855 °C</caracteristica>
+                <caracteristica num="3">Control total y absoluto de la iluminación RGB</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>GameMax DS360</nombre>
+            <tipo>Caja</tipo>
+            <fabricante>GameMax</fabricante>
+            <precio> 121,99€</precio>
+            <caracteristicas>
+                <caracteristica num="2">Alto flujo de aire</caracteristica>
+                <caracteristica num="3">Sincronización de la placa base</caracteristica>
+            </caracteristicas>
+        </pieza>  
+
+        <pieza>
+            <nombre>1x 27" 100Hz Pack Monitor</nombre>
+            <tipo>Monitor</tipo>
+            <fabricante>Vibox</fabricante>
+            <precio>129,99€</precio>
+            <caracteristicas>
+                <caracteristica num="1">FullHD 1920x1080</caracteristica>
+                <caracteristica num="2">5ms Respuesta</caracteristica>
+                <caracteristica num="3">Retroiluminación LED</caracteristica>
+            </caracteristicas>
+        </pieza>
+
+        <pieza>
+            <nombre>Teclado RGB para juegos </nombre>
+            <tipo>Teclado</tipo>
+            <fabricante>Logitech</fabricante>
+            <precio>55,90€</precio>
+            <caracteristicas>
+                <caracteristica num="1">Reposamuñecas</caracteristica>
+                <caracteristica num="2">Teclas retroiluminadas y personalizables</caracteristica>
+                <caracteristica num="3">Resistente a salpicaduras</caracteristica>
+            </caracteristicas>
+        </pieza> 
+
+        <pieza>
+            <nombre>Logitech G502 LIGHTSPEED Ratón Gaming Inalámbrico</nombre>
+            <tipo>Ratón</tipo>
+            <fabricante>Logitech</fabricante>
+            <precio>89,99€</precio>
+            <caracteristicas>
+                <caracteristica num="1">Peso reducido</caracteristica>
+                <caracteristica num="2">11 botones programables</caracteristica>
+                <caracteristica num="3">Batería larga duración</caracteristica>
+            </caracteristicas>
+        </pieza> 
+
+        <pieza>
+            <nombre></nombre>
+            <tipo>Ratón</tipo>
+            <fabricante>Logitech</fabricante>
+            <precio>89,99€</precio>
+            <caracteristicas>
+                <caracteristica num="1">Peso reducido</caracteristica>
+                <caracteristica num="2">11 botones programables</caracteristica>
+                <caracteristica num="3">Batería larga duración</caracteristica>
+            </caracteristicas>
+        </pieza>   
+    </equipo>
+</hardware>

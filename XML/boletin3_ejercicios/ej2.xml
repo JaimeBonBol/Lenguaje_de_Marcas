@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE cluster>
+
+<cluster>
+
+    <nodos>
+
+        <nodo>
+            <nombre>Servidor físico</nombre>
+            <ip>192.168.1.10</ip>
+            <maquinas_virtuales>
+
+                <maquina_virual>
+                    <nombre>VirtualBox</nombre>
+                    <sistema_operativo>Linux Mint</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.110</ip>
+                            <mac>11:22:43:74:15:66</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>VMware</nombre>
+                    <sistema_operativo>VMware ESXi</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.100</ip>
+                            <mac>11:22:33:44:55:66</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.120</ip>
+                            <mac>11:22:58:44:55:26</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>KVM</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.11</ip>
+                            <mac>00:1A:2B:3C:4D:5E</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.7</ip>
+                            <mac>01:23:45:67:89:AB</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+        <nodo>
+            <nombre>Nodo de almacenamiento</nombre>
+            <ip>192.168.1.50</ip>
+            <maquinas_virtuales>
+
+                <maquina_virual>
+                    <nombre>Bacula</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.107</ip>
+                            <mac>00:2A:5B:7C:8D:9E</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>Servidor de Almacenamiento NAS (Network Attached Storage)</nombre>
+                    <sistema_operativo>FreeNAS</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.101</ip>
+                            <mac>00:1A:2B:3C:4D:5E</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.12</ip>
+                            <mac>11:22:58:44:55:26</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>Servidor de Almacenamiento SAN (Storage Area Network)</nombre>
+                    <sistema_operativo>Openfiler</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>10.0.0.5</ip>
+                            <mac>00:7A:8B:3C:2D:1E</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>172.16.0.20</ip>
+                            <mac>04:49:58:67:81:AB</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+        <nodo>
+            <nombre>Nodo de control</nombre>
+            <ip>192.168.1.08</ip>
+            <maquinas_virtuales>
+
+                <maquina_virual>
+                    <nombre>VMware</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.100</ip>
+                            <mac>F0:9F:BC:7A:8C:9D</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>Apache</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.188</ip>
+                            <mac>F0:9F:BC:7A:8C:9D</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.104</ip>
+                            <mac>DE:AD:BE:EF:00:01</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>Nginx</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.136</ip>
+                            <mac>A0:B1:C2:D3:E4:F5</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.0.20</ip>
+                            <mac>12:34:56:78:9A:BC</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+        <nodo>
+            <nombre>Nodo de Servicio</nombre>
+            <ip>192.168.1.118</ip>
+            <maquinas_virtuales>
+
+                <maquina_virual>
+                    <nombre>VirtualBox</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.78</ip>
+                            <mac>DE:AD:BE:EF:80:01</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>Squid</nombre>
+                    <sistema_operativo>SUSE Linux</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.88</ip>
+                            <mac>DE:AD:BE:EF:00:01</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.14</ip>
+                            <mac>AE:AD:DE:EA:07:11</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>VirtualBox</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.01</ip>
+                            <mac>00:1A:7B:3C:4D:5E</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.0.0</ip>
+                            <mac>DE:AD:BE:EF:00:01</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+        <nodo>
+            <nombre>Nodo de Base de Datos</nombre>
+            <ip>192.168.1.18</ip>
+            <maquinas_virtuales>
+            
+                <maquina_virual>
+                    <nombre>VirtualBox</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.08</ip>
+                            <mac>AE:AA:AE:EF:00:11</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>            
+
+                <maquina_virual>
+                    <nombre>VM de MySQL</nombre>
+                    <sistema_operativo> UNIX</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.1.08</ip>
+                            <mac>DE:AD:BE:EF:00:01</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.1.14</ip>
+                            <mac>AE:AD:DE:EA:07:11</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+                <maquina_virual>
+                    <nombre>VM de MongoDB</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz>
+                            <ip>192.168.0.124</ip>
+                            <mac>00:1A:4B:6C:4D:8E</mac>
+                        </interfaz>
+                        <interfaz>
+                            <ip>192.168.0.156</ip>
+                            <mac>AE:DD:BE:EF:00:01</mac>
+                        </interfaz>
+                    </interfaces_red>
+                </maquina_virual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+    </nodos>
+
+</cluster>

@@ -1,0 +1,33 @@
+<?xml version= “1.0” ?> 
+        <!DOCTYPE steam>
+
+<steam>
+
+    <perfil>
+        <nombre>Jaime</nombre>
+        <edad>20</edad>
+        <dinero>1</dinero>
+    
+    </perfil>
+
+    <biblioteca propietario="Jaime">
+        <juego>
+            <titulo>Fifa</titulo>
+            <horas>8000</horas>
+            <ultimaPartida>Ayer</ultimaPartida>
+        </juego>
+
+        <juego>
+            <titulo>F1</titulo>
+            <horas>5000</horas>
+            <ultimaPartida>2018</ultimaPartida>        
+        </juego>
+        <juego>
+            <titulo>Parchis</titulo>
+            <horas>200</horas>
+            <ultimaPartida>Hace un mes</ultimaPartida>        
+        </juego>
+
+    </biblioteca>
+        
+</steam>

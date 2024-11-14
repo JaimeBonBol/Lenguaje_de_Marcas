@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE horario>
+
+<horario>
+    <dia>
+        <hora>
+            <tramo>Primera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Segunda hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Tercera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Cuarta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Quinta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Entornos de desarrollo</asignatura>
+        </hora>
+        <hora>
+            <tramo>Sexta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Entornos de desarrollo</asignatura>
+        </hora>
+    </dia>
+
+    <dia>
+        <hora>
+            <tramo>Primera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Entornos de desarrollo</asignatura>
+        </hora>
+        <hora>
+            <tramo>Segunda hora</tramo>
+            <aula>B139</aula>
+            <profesor>María</profesor>
+            <asignatura>IPE</asignatura>
+        </hora>
+        <hora>
+            <tramo>Tercera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Sostenibilidad</asignatura>
+        </hora>
+        <hora>
+            <tramo>Cuarta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Quinta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Jose</profesor>
+            <asignatura>Sistemas informáticos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Sexta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Jose</profesor>
+            <asignatura>Sistemas informáticos</asignatura>
+        </hora>
+    </dia>
+
+    <dia>
+        <hora>
+            <tramo>Primera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Segunda hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Tercera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Miguel</profesor>
+            <asignatura>Lenguaje de marcas</asignatura>
+        </hora>
+        <hora>
+            <tramo>Cuarta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Jose</profesor>
+            <asignatura>Sistemas informáticos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Quinta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Sexta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+    </dia>
+
+    <dia>
+        <hora>
+            <tramo>Primera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Segunda hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+        <hora>
+            <tramo>Tercera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Jose</profesor>
+            <asignatura>Sistemas informáticos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Cuarta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Jose</profesor>
+            <asignatura>Sistemas informáticos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Quinta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Miguel</profesor>
+            <asignatura>Digitalización</asignatura>
+        </hora>
+        <hora>
+            <tramo>Sexta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Miguel</profesor>
+            <asignatura>Lenguaje de marcas</asignatura>
+        </hora>
+    </dia>
+
+    <dia>
+        <hora>
+            <tramo>Primera hora</tramo>
+            <aula>B139</aula>
+            <profesor>Miguel</profesor>
+            <asignatura>Lenguaje de marcas</asignatura>
+        </hora>
+        <hora>
+            <tramo>Segunda hora</tramo>
+            <aula>B139</aula>
+            <profesor>María</profesor>
+            <asignatura>IPE</asignatura>
+        </hora>
+        <hora>
+            <tramo>Tercera hora</tramo>
+            <aula>B139</aula>
+            <profesor>María</profesor>
+            <asignatura>IPE</asignatura>
+        </hora>
+        <hora>
+            <tramo>Cuarta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Quinta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Teo</profesor>
+            <asignatura>Base de datos</asignatura>
+        </hora>
+        <hora>
+            <tramo>Sexta hora</tramo>
+            <aula>B139</aula>
+            <profesor>Alejandro</profesor>
+            <asignatura>Programación</asignatura>
+        </hora>
+    </dia>
+    
+</horario>

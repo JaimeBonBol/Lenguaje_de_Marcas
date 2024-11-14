@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE libro> 
+
+<libro>
+    
+    <receta>
+        
+        <nombre>Tortilla francesa con atun</nombre>
+        <ingredientes>
+            <ingrediente>huevo</ingrediente>
+            <ingrediente>atun</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso num="1">Echas el huevo y lo bates</paso>
+            <paso num="2">Echas el atun</paso>
+            <paso num="3">Echas todo junto en la sarten</paso>
+            <paso num="4">Esperas a que este listo</paso>
+        </pasos>
+    
+    </receta>
+
+    <receta>
+        
+        <nombre>Macarrones con tomate</nombre>
+        <ingredientes>
+            <ingrediente>macarrones</ingrediente>
+            <ingrediente>tomate</ingrediente>
+            <ingrediente>agua</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso num="1">Pones el agua a hervir</paso>
+            <paso num="2">Cuando el agua este hirviendo echas los macarrones</paso>
+            <paso num="3">Cuando los macarrones esten listos los sacas y les echas el tomate</paso>
+        </pasos>
+    
+    </receta>
+
+</libro>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE centro_comercial>
+
+<centro_comercial>
+    <tienda>
+        <nombre>Zara</nombre>
+        <parcelas>4</parcelas>
+        <metros_cuadrados>120</metros_cuadrados>
+        <datos_encargado>
+            <nombre>María</nombre>
+            <apellidos>Diaz Ruiz</apellidos>
+            <telefono_contacto>624321795</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Jvz</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>20</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Jose</nombre>
+            <apellidos>Diaz Ruiz</apellidos>
+            <telefono_contacto>631456987</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Celopman</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>35</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Paqui</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Parfois</nombre>
+        <parcelas>2</parcelas>
+        <metros_cuadrados>27</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Juan</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>697102014</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Silbon</nombre>
+        <parcelas>3</parcelas>
+        <metros_cuadrados>47</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Luis</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Scalpers</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>39</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Carlos</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Bimba y Lola</nombre>
+        <parcelas>2</parcelas>
+        <metros_cuadrados>65</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Paqui</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Geox</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>35</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Jose</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>El ganso</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>35</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Paqui</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Lacoste</nombre>
+        <parcelas>3</parcelas>
+        <metros_cuadrados>54</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Pedro</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+    <tienda>
+        <nombre>Celopman</nombre>
+        <parcelas>1</parcelas>
+        <metros_cuadrados>35</metros_cuadrados>
+        <datos_encargado>
+            <nombre>Paqui</nombre>
+            <apellidos>Ruiz Diaz</apellidos>
+            <telefono_contacto>601241568</telefono_contacto>
+            <nss>123456789</nss>
+        </datos_encargado>
+    </tienda>
+
+
+</centro_comercial>

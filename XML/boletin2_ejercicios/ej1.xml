@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE cine> 
+<!--Podria poner en la etiqueta <pelicula nombre ="jurasic world 2"</pelicula>. O así como lo he echo,
+creando otra etiqueta con el nombre-->
+<cine>
+    <cartelera>
+        <pelicula>
+            <nombre>Jurasicc World 2</nombre>
+            <resumen>Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán</resumen>
+            <sesiones>
+                <sesion num="1">A las 17:15</sesion>
+                    <sala>Sala 1</sala>
+                <sesion num="2">A las 20:00</sesion>
+                    <sala>Sala 3</sala>
+                <sesion num="3">A las 22:30</sesion>
+                    <sala>Sala 6</sala>
+            </sesiones>
+            <director>Juan Antonio Bayona</director>
+            <protagonistas>
+                <protagonista num="1">Chris Pratt</protagonista>
+                <protagonista num="2">Bryce Dallas Howard</protagonista>
+            </protagonistas>  
+        </pelicula>
+    
+        <pelicula>
+            <nombre>Piratas del Caribe</nombre>
+            <resumen>El capitán Jack Sparrow tiene que saldar una deuda de sangre con Davy Jones, el legendario capitán del barco fantasma, 'El holandés errante'.</resumen>
+            <sesiones>
+                <sesion num="1">A las 16:00</sesion>
+                    <sala>Sala 2</sala>
+                <sesion num="2">A las 18:30</sesion>
+                    <sala>Sala 3</sala>
+                <sesion num="3">A las 20:15</sesion>
+                    <sala>Sala 1</sala>
+            </sesiones>
+            <director>Espen Sandberg</director>
+            <protagonistas>
+                <protagonista num="1">Johnny Depp</protagonista>
+                <protagonista num="2">Keira Knightley</protagonista>
+            </protagonistas>  
+        </pelicula>    
+    
+
+        <pelicula>
+            <nombre>El proyecto Adam</nombre>
+            <resumen>Un viajero del tiempo y piloto de combate, aterriza en el año 2022. Allí, se encuentra con su yo de doce años y, junto a él, tratará de salvar el futuro.</resumen>
+            <sesiones>
+                <sesion num="1">A las 10:15</sesion>
+                    <sala>Sala 8</sala>
+                <sesion num="2">A las 15:00</sesion>
+                    <sala>Sala 4</sala>
+                <sesion num="3">A las 17:30</sesion>
+                    <sala>Sala 2</sala>
+            </sesiones>
+            <director>Shawn Levy</director>
+            <protagonistas>
+                <protagonista num="1">Ryan Reynolds</protagonista>
+                <protagonista num="2">Serena Levy</protagonista>
+            </protagonistas>  
+        </pelicula>
+
+        <pelicula>
+            <nombre>Real Steel</nombre>
+            <resumen>En un futuro no muy lejano, el boxeo es robótico</resumen>
+            <sesiones>
+                <sesion num="1">A las 18:00</sesion>
+                    <sala>Sala 1</sala>
+                <sesion num="2">A las 19:00</sesion>
+                    <sala>Sala 4</sala>
+                <sesion num="3">A las 21:30</sesion>
+                    <sala>Sala 7</sala>
+            </sesiones>
+            <director>Shawn Levy</director>
+            <protagonistas>
+                <protagonista num="1">Hugh Jackman</protagonista>
+                <protagonista num="2">Kevin Durand</protagonista>
+            </protagonistas>  
+        </pelicula>
+
+        <pelicula>
+            <nombre>La habitación de al lado</nombre>
+            <resumen>Dos mujeres que van construyendo una relación de amistad absolutamente férrea, sin la menor fisura.</resumen>
+            <sesiones>
+                <sesion num="1">A las 19:30</sesion>
+                    <sala>Sala 10</sala>
+                <sesion num="2">A las 21:00</sesion>
+                    <sala>Sala 9</sala>
+                <sesion num="3">A las 23:30</sesion>
+                    <sala>Sala 4</sala>
+            </sesiones>
+            <director>Pedro Almodóvar</director>
+            <protagonistas>
+                <protagonista num="1">Julianne Moore</protagonista>
+                <protagonista num="2">Alex Hogh Andersen</protagonista>
+            </protagonistas>  
+        </pelicula>
+
+    </cartelera>
+    
+</cine>

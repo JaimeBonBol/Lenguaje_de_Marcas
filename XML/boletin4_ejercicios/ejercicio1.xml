@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE libro>
+
+<libro>
+    <titulo>Tarzán</titulo>
+    <editorial>Epublibre</editorial>
+    <numero_paginas>316</numero_paginas>
+    <autor>Edgar Rice Burroughs</autor>
+    <capitulos>
+        <capitulo num="1">
+            <titulo>En alta mar</titulo>
+            <pagina_inicio>10</pagina_inicio>
+            <pagina_finalizacion>45</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="2">
+            <titulo>Un hogar en la selva</titulo>
+            <pagina_inicio>45</pagina_inicio>
+            <pagina_finalizacion>70</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="3">
+            <titulo>Vida</titulo>
+            <pagina_inicio>70</pagina_inicio>
+            <pagina_finalizacion>95</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="4">
+            <titulo>Los monos</titulo>
+            <pagina_inicio>95</pagina_inicio>
+            <pagina_finalizacion>125</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="5">
+            <titulo>El simio blanco</titulo>
+            <pagina_inicio>125</pagina_inicio>
+            <pagina_finalizacion>150</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="6">
+            <titulo>Combate en la jungla</titulo>
+            <pagina_inicio>150</pagina_inicio>
+            <pagina_finalizacion>178</pagina_finalizacion>
+        </capitulo>
+
+        <capitulo num="7">
+            <titulo>La luz del conocimiento</titulo>
+            <pagina_inicio>178</pagina_inicio>
+            <pagina_finalizacion>204</pagina_finalizacion>
+        </capitulo>
+        
+        <capitulo num="8">
+            <titulo>El cazador en la enramada</titulo>
+            <pagina_inicio>204</pagina_inicio>
+            <pagina_finalizacion>226</pagina_finalizacion>
+        </capitulo>
+    </capitulos>
+</libro>

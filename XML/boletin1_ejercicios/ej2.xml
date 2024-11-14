@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE rutas> 
+
+<rutas>
+
+    <ruta>
+        <nombre>Ruta Palma</nombre>
+
+        <paradas>
+            <parada>
+                <nombre>parada colegio</nombre>
+                <calle>Calle Colegio S/N</calle>
+                <horario>08:15</horario>
+            </parada>
+            <parada>
+                <nombre>parada médico</nombre>
+                <calle>Calle Médico S/N</calle>
+                <horario>08:30</horario>
+            </parada>
+            <parada>
+                <nombre>parada parque</nombre>
+                <calle>Calle Parque S/N</calle>
+                <horario>09:15</horario>
+            </parada>
+            <parada>
+                <nombre>parada estación</nombre>
+                <calle>Calle Estación S/N</calle>
+                <horario>10:00</horario>
+            </parada>
+        </paradas>
+    </ruta>
+
+    <ruta>
+        <nombre>Ruta Córdoba</nombre>
+
+        <paradas>
+            <parada>
+                <nombre>parada universidad</nombre>
+                <calle>Calle facultad S/N</calle>
+                <horario>07:00</horario>
+            </parada>
+            <parada>
+                <nombre>parada hospital</nombre>
+                <calle>Calle Médico S/N</calle>
+                <horario>07:30</horario>
+            </parada>
+            <parada>
+                <nombre>parada supermercado</nombre>
+                <calle>Calle super S/N</calle>
+                <horario>08:15</horario>
+            </parada>
+            <parada>
+                <nombre>parada estadio</nombre>
+                <calle>Calle Arcangel S/N</calle>
+                <horario>09:00</horario>
+            </parada>
+        </paradas>
+    </ruta>
+
+    <ruta>
+        <nombre>Ruta Fuente Palmera</nombre>
+
+        <paradas>
+            <parada>
+                <nombre>parada cafeteria</nombre>
+                <calle>Calle cafeteria S/N</calle>
+                <horario>08:00</horario>
+            </parada>
+            <parada>
+                <nombre>parada medicos</nombre>
+                <calle>Calle Médico S/N</calle>
+                <horario>08:30</horario>
+            </parada>
+            <parada>
+                <nombre>parada ordenador</nombre>
+                <calle>Calle super S/N</calle>
+                <horario>09:15</horario>
+            </parada>
+            <parada>
+                <nombre>parada polideportivo</nombre>
+                <calle>Calle polideportivo S/N</calle>
+                <horario>10:30</horario>
+            </parada>
+        </paradas>
+    </ruta>
+
+</rutas>

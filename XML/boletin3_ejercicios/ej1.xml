@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE torneo>
+
+<torneo>
+    <nombre>Roland Garros</nombre>
+    <fecha_inicio>19/05/2025</fecha_inicio>
+    <fecha_finalizacion>08/06/2025</fecha_finalizacion>
+    <partidos>
+
+        <partido>
+            <fecha>19/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Jannik Sinner</nombre>
+                    <nacionalidad>Italiano</nacionalidad>
+                    <ranking>1</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Carlos Alcaraz</nombre>
+                    <nacionalidad>Español</nacionalidad>
+                    <ranking>2</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-7</resultado>
+                </set>
+                <set>
+                    <resultado>4-6</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>20/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Iga Swiatek</nombre>
+                    <nacionalidad>Polaca</nacionalidad>
+                    <ranking>1</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Elena Rybakina</nombre>
+                    <nacionalidad>Kazajistana</nacionalidad>
+                    <ranking>4</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>4-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-2</resultado>
+                </set>
+                <set>
+                    <resultado>4-6</resultado>
+                </set>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>23/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Alexander Zverev</nombre>
+                    <nacionalidad>Aleman</nacionalidad>
+                    <ranking>3</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Novak Djokovic</nombre>
+                    <nacionalidad>Serbio</nacionalidad>
+                    <ranking>4</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>4-6</resultado>
+                </set>
+                <set>
+                    <resultado>1-6</resultado>
+                </set>
+                <set>
+                    <resultado>7-5</resultado>
+                </set>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+            </sets>
+        </partido> 
+
+        <partido>
+            <fecha>25/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Daniil Medvedev</nombre>
+                    <nacionalidad>Ruso</nacionalidad>
+                    <ranking>5</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Casper Ruud</nombre>
+                    <nacionalidad>Noruego</nacionalidad>
+                    <ranking>9</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-7</resultado>
+                </set>
+                <set>
+                    <resultado>6-1</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>26/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Barbora Krejcikova</nombre>
+                    <nacionalidad>Checa</nacionalidad>
+                    <ranking>10</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Paula Badosa</nombre>
+                    <nacionalidad>Española</nacionalidad>
+                    <ranking>19</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-7</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>29/05/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Donna Vekic</nombre>
+                    <nacionalidad>Croata</nacionalidad>
+                    <ranking>20</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Elise Mertens</nombre>
+                    <nacionalidad>Belga</nacionalidad>
+                    <ranking>29</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-2</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>02/06/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Lorenzo Musetti</nombre>
+                    <nacionalidad>Italiano</nacionalidad>
+                    <ranking>18</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Sebastian Baez</nombre>
+                    <nacionalidad>Argentino</nacionalidad>
+                    <ranking>26</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-3</resultado>
+                </set>
+                <set>
+                    <resultado>1-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>02/06/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Sebastian Korda</nombre>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                    <ranking>19</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Frances Tiafoe</nombre>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                    <ranking>17</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-7</resultado>
+                </set>
+                <set>
+                    <resultado>1-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>06/06/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Leylah Fernandez</nombre>
+                    <nacionalidad>Canadiense</nacionalidad>
+                    <ranking>28</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Caroline Garcia</nombre>
+                    <nacionalidad>Francesa</nacionalidad>
+                    <ranking>36</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>1-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+                <set>
+                    <resultado>5-7</resultado>
+                </set>
+            </sets>
+        </partido>
+
+        <partido>
+            <fecha>08/06/2025</fecha>
+
+            <jugadores>
+                <jugador>
+                    <nombre>Carlos Alcaraz</nombre>
+                    <nacionalidad>Español</nacionalidad>
+                    <ranking>2</ranking>
+                </jugador>
+                <jugador>
+                    <nombre>Alexander Zverev</nombre>
+                    <nacionalidad>Alemán</nacionalidad>
+                    <ranking>3</ranking>
+                </jugador>
+            </jugadores>
+            <sets>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+                <set>
+                    <resultado>1-6</resultado>
+                </set>
+                <set>
+                    <resultado>3-6</resultado>
+                </set>
+                <set>
+                    <resultado>6-2</resultado>
+                </set>
+                <set>
+                    <resultado>6-4</resultado>
+                </set>
+            </sets>
+        </partido>
+
+    </partidos>
+</torneo>

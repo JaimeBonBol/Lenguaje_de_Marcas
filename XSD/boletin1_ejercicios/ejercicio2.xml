@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<shiporder orderid="1234"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ejercicio1.xsd"
+>
+    <orderperson>Pepe</orderperson>
+    <shipto>
+        <name>Jose Roberto Martinez Fernandez</name>
+        <address>C/ Avenida de la Paz Nº 1</address>
+        <city>Córdoba</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Indiana Jones</title>
+        <note>Libro de aventuras</note>
+        <quantity>1</quantity>
+        <price>10</price>
+    </item>
+        <item>
+        <title>Estuche</title>
+        <note>Estuche portalápices</note>
+        <quantity>2</quantity>
+        <price>8</price>
+    </item>
+        <item>
+        <title>Reloj</title>
+        <note>Reloj acuático</note>
+        <quantity>1</quantity>
+        <price>49</price>
+    </item>
+</shiporder>
