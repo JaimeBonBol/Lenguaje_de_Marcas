@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 Boletín 4</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+         td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 30px;
+            width: 60px;
+        }
+        tr{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!--PREGUNTAR A MIGUEL COMO PONER LOS TEXTOS ARRIBA A LA IZQ POR EJ PORQUE NO SALE EN EL TEXT ALIGN-->
+    <table >
+        <tr>
+            <td rowspan="2" colspan="2" >r1c1</td>
+            <td>r1c3</td>
+            <td rowspan="2">r1c4</td>
+            <td rowspan="2" colspan="2" >r1c5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">r2c3</td>
+        </tr>
+        <tr>
+            <td colspan="2">r3c1</td>
+            <td colspan="2">r3c4</td>
+            <td>r3c6</td>
+        </tr>
+        <tr>
+            <td>r4c1</td>
+            <td colspan="2">r4c2</td>
+            <td rowspan="2">r4c4</td>
+            <td colspan="2">r4c5</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">r5c1</td>
+            <td rowspan="2">r5c3</td>
+            <td rowspan="2" colspan="2">r5c5</td>
+        </tr>
+        <tr>
+            <td>r6c4</td>
+        </tr>
+        <tr style="visibility: hidden; border: none;">
+            <td style="visibility: hidden; border: none;"></td>
+            <td style="visibility: hidden; border: none;"></td>
+            <td style="visibility: hidden; border: none;"></td>
+            <td style="visibility: hidden; border: none;"></td>
+            <td style="visibility: hidden; border: none;"></td>
+            <td style="visibility: hidden; border: none;"></td>
+        </tr>
+    </table>
+</body>
+</html>

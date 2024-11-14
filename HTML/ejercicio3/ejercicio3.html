@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        table,tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-left: none;
+            border-right: none;
+        }
+        td{
+            height: 50px; 
+            width: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Formulario de reserva de salas</h1>
+    <!--PREGUNTAR A MIGUEL EL TEMA DEL NAME E ID.-->
+    <form action="" method="">
+    <table>
+        
+        <tr style="background-color: lightgray;">
+            <td><label for="nombre">Tu nombre: <span style="color: red;">*</span></label> </td>
+            <td><input type="text" name="nombre" id="nombre" required></td>
+        </tr>
+        <tr>
+            <td><label for="correo">Tu correo electrónico: <span style="color: red;">*</span></label></td>
+            <td><input type="text" name="correo" id="correo" required></td>
+        </tr>
+        <tr style="background-color: lightgray;">
+            <td><label for="departamento">Departamento: <span style="color: red;">*</span></label></td>
+            <td>
+                <select name="departamento" id="departamento">
+                    <option value="ventas">ventas</option>
+                    <option value="alquileres">alquileres</option>
+                    <option value="compras">compras</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><p>Tipo de sala que desea reservar: <span style="color: red;">*</span></p></td>
+            <td style="height: 100px; width: 400px;">
+                <input type="radio" id="salaA" name="sala" value="TipoA" required>
+                <label for="salaA">Tipo A</label><br>
+                <input type="radio" id="salaB" name="sala" value="salaB"required>
+                <label for="salaB">Tipo B</label><br>
+                <input type="radio" id="salaC" name="sala" value="TipoC" required>
+                <label for="salaC">Tipo C</label><br>
+                <!--PREGUNTAR A MIGUEL COMO PUEDO DESMARCAR LAS CASILLAS-->
+            </td>
+        </tr>
+        <tr style="background-color: lightgray;">
+            <td><p>Requisitos extra.</p></td>
+            <td style="height: 100px; width: 400px;">
+                <input type="checkbox" id="requisito1" name="requisito1" value="Caballete_Boligrafos">
+                <label for="requisito1">Caballete y bolígrafos</label><br>
+                <input type="checkbox" name="requisito2" id="requisito2" value="Television">
+                <label for="requisito2">Televisión</label><br>
+                <input type="checkbox" name="requisito3" id="requisito3" value="Cafe_te_Agua">
+                <label for="requisito3">Café, té y agua</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="fechareserva">Fecha de la reserva: <span style="color: red;">*</span></label></td>
+            <td><input type="date" name="fechareserva" id="fechareserva" required></td>
+        </tr>
+        <tr style="background-color: lightgray;">
+            <td><label for="horareserva">Hora de la reserva: <span style="color: red;">*</span></label></td>
+            <td><input type="time" name="horareserva" id="horareserva" required></td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2"><input type="submit"></td>
+        </tr>
+        
+        
+    </table>
+    </form>
+</body>
+</html>

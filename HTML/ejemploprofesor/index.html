@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--Comentario en HTML-->
+<html lang="es">
+    <head>  <!--aquísolo hay metadatos, nada de aquí se muestra en la página-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuestro título</title>
+        <!-- Otras referencias como a los CSS o al archivo JavaScript -->
+
+        <style>
+            table, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            tr{
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Todo lo que hay aquí se muestra en la página web-->
+        <h1>Un título</h1>
+        <h2>Un título mas pequeño</h2>
+        <h3>Un título aún más pequeño</h3>
+
+        <h4>Esto es con span</h4>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam alias dicta in eaque explicabo. Ullam architecto praesentium repudiandae ex temporibus doloribus maiores veniam animi dignissimos! Tempore itaque adipisci tenetur rerum?</span>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi recusandae, ducimus deleniti cum, iste, ipsa repudiandae impedit aperiam reprehenderit perferendis pariatur temporibus architecto. Provident vero explicabo eligendi cumque eos natus!</span>
+
+        <h4>Esto es con párrafo</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis perspiciatis obcaecati modi sunt adipisci alias, temporibus fugit voluptatibus beatae fuga qui rem ex enim? Possimus praesentium libero facere inventore magni?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vero sint nobis praesentium consequatur, totam molestiae, laborum eveniet, magnam magni nemo minima! Dolorum consequuntur sunt laborum rem ad nulla minus?</p>
+        <!--Hasta aqui los elementos que son básicos-->
+
+        <div> Hola mundo </div> <!--Comunmente conocido como Contenedor-->
+        <div style="color: red;"> Adiós mundo </div>
+        <img src="Sources/06-montar-pc.jpg" alt="PC"> <!--src la direccion de la procedencia de la imagen   alt texto alternativo para quien no pueda ver la foto le diga lo que hay-->
+        <br> <!--Salto de línea-->
+        <a href="https://www.google.es">Google</a>
+        
+        <!--Tablas-->
+        <table style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td style="border: 1px solid black;">Celda1.1</td>
+                <td style="border: 1px solid black;">Celda1.2</td>
+                <td style="border: 1px solid black;">Celda1.3</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Celda2.1</td>
+                <td style="border: 1px solid black;">Celda2.2</td>
+                <td style="border: 1px solid black;">Celda2.3</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Celda3.1</td>
+                <td style="border: 1px solid black;">Celda3.3</td>
+                <td style="border: 1px solid black;">Celda3.4</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Celda4.1</td>
+                <td style="border: 1px solid black;">Celda4.2</td>
+                <td style="border: 1px solid black;">Celda4.3</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Celda5.1</td>
+                <td style="border: 1px solid black;">Celda5.2</td>
+                <td style="border: 1px solid black;">Celda5.3</td>
+            </tr>
+        </table>
+
+        <!--Listas-->
+
+        <h1>Lista ordenada (Ordered List) (OL)</h1>
+        <ol>
+            <li>Número 1</li>
+            <li>Número 2</li>
+        </ol>
+
+        <h1>Lista desordenada (Unordered list) (UL)</h1>
+        <ul>
+            <li>Algo</li>
+            <li>Algo más</li>
+            <li>Incrusto otra lista pero ordenada
+                <ol>
+                    <li>Incrustado 1</li>
+                    <li>Incrustado 2</li>
+                </ol>
+            </li>
+        </ul>
+
+        <form action="" method="">
+            <!-- Campos formulario -->
+             <label for="nombre">Nombre de usuario: </label><input name="nombre" type="text">
+             <input type="submit">
+        </form>
+        
+    </body>
+</html>
