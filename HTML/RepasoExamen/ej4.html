@@ -4,8 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 4 Repaso</title>
+    <style>
+        div{
+            border: 5px solid blue;
+            border-collapse: collapse;
+            width: 700px;
+        }
+        fieldset{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h1>Reservation Request</h1>
+        
+        <fieldset>
+            <legend style="color: blue;">General information</legend>
+            <form action="">
+                <label for="arrival_date">Arrival Date: </label>
+                <input type="date" name="arrival_date" id="arrival_date">
+                <label for="arrival_date" style="color: red;">Arrival date is invalid</label><br>
+
+                <label for="nigths">Nigths: </label>
+                <input type="text" name="nigths" id="nigths">
+                <label for="nigths" style="color: red;">Nigths must be a number</label><br>
+
+                <label for="adults">Adults: </label>
+                    <select name="adults" id="adults">
+                        <option value="adults">0</option>
+                        <option value="adults">1</option>
+                        <option value="adults">2</option>
+                        <option value="adults">3</option>
+                        <option value="adults">4</option>
+                    </select><br>
+                    
+                <label for="children">Children: </label>
+                    <select name="children" id="children">
+                        <option value="children">0</option>
+                        <option value="children">1</option>
+                        <option value="children">2</option>
+                        <option value="children">3</option>
+                        <option value="children">4</option>
+                    </select>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend style="color: blue;">Preferences</legend>
+            <form action="">
+                <label for="room_type">Room type: </label>
+                <input type="radio" name="room_type" id="room_type">
+                <label for="standard">Standard</label>
+                <input type="radio" name="room_type" id="room_type">
+                <label for="business">Business</label>
+                <input type="radio" name="room_type" id="room_type">
+                <label for="suite">Suite</label><br>
+
+                <label for="bed_type">Bed type: </label>
+                <input type="radio" name="bed_type" id="bed_type">
+                <label for="king">King</label>
+                <input type="radio" name="bed_type" id="bed_type">
+                <label for="Double Double">Double Double</label><br>
+                
+                <input type="checkbox" name="smoking" id="smoking">
+                <label for="smoking">Smoking</label>
+            </form>
+        </fieldset>
+        <fieldset>
+            <form action="">
+            <legend style="color: blue;">Contact Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <label for="name" style="color: red; ">Name is required</label><br>
+
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email">
+            <label for="email" style="color: red;">Email address is invalid</label><br>
+
+            <label for="phone">Phone: </label>
+            <input type="text" name="phone" id="phone">
+            <label for="phone" style="color: red;">Phone number is invalid</label>
+            </form>
+        </fieldset>
+        <!--Preguntar para poner el boton de submit que afecte a todo el formulario si está dividido en varios formularios en varios fieldset-->
+        <input type="submit" style="margin-left: 50px; margin-bottom: 10px; width: 200px;">
+
+    </div>
 </body>
 </html>
