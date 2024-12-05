@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0s;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    height: 10px;
+    width: 120px;
+}
+
+th{
+    border: 1px solid black;
+
+}
+
+td:first-child {    
+    background-color: green;
+}
+
+tr:nth-child(4){
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:link{
+    color: green;
+}
+
+.ultimaColumna:hover{
+    font-size: 200%;
+}
+
+th::first-letter{
+    font-size: 200%;
+}
+
+input[required]{
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+label.required::after{
+    content: "*";
+    color: red;
+}
