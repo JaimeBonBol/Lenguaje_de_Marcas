@@ -17,7 +17,7 @@ body{
 
 #cabecera{
     grid-area: cabecera;
-    background-color:rgb(45, 58, 24);
+    background-color:rgb(37, 48, 20);
     display: flex;  /*Afecta a los div dentro de cabecera*/
     align-items: center; /*Para alinear los div dentro de cabecera en el centro verticalmente.*/
     gap: 10%;   /*Para que haya una separación entre los divs dentro de cabecera.*/
@@ -25,7 +25,7 @@ body{
 
 #contenido{
     grid-area: contenido;
-    background-color: rgb(160, 126, 82);
+    background-color: rgb(151, 115, 67);
     display: flex;
     gap: 15%;
     padding: 50px 100px 0px;
@@ -83,14 +83,17 @@ body{
 
 #titulo{
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 #subtitulo{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    width: 900px;
+    
 }
 
 #logo>img{
