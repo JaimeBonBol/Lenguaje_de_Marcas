@@ -1,0 +1,129 @@
+body{
+    width: 94vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 100vh;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 1fr 6fr 3fr;
+    grid-template-areas: "header"
+                        "nav"
+                        "main"
+                        "footer";
+
+}
+
+#header{
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#contacto ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: end;
+}
+
+#contacto li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#centum{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*
+#nav{
+    grid-area: nav;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    gap: 15%;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+
+#nav form input{
+    margin-top: 30px;
+    background-color: black;
+    
+}
+
+#nav ul{
+    grid-area: nav;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+}
+
+.blanco{
+    color: white;
+    font-size: 16px;
+}
+
+.blanco:hover{
+    color: white;
+    font-size: 20px;
+}
+
+.imagen{
+    width: 100%;
+    z-index: 0;
+}
+.recuadro{
+    z-index: 1;
+    opacity: 1;
+}
+
+#main{
+    grid-area: main;
+    background-color:coral;
+}
+
+#footer{
+    grid-area: footer;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#footer3{
+    display: flex;
+    flex-direction: row;
+}
