@@ -1,7 +1,7 @@
 body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
+    width: 98vw;
+    height: 98vh;
+    margin: 1vh 1vw;
     padding: 0;
 }
 
@@ -10,7 +10,7 @@ body{
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.4fr 2fr 0.6fr;
+    grid-template-rows: 0.8fr 0.4fr 4fr 0.6fr;
     grid-template-areas:"cabecera"
                         "subcabecera"
                         "contenido"
@@ -23,11 +23,11 @@ body{
     color: white;
     display: flex;
     gap: 68%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+
 }
 
-.identificar{
-    align-self: center;
-}
 
 #subcabecera{
     grid-area: subcabecera;
@@ -43,9 +43,80 @@ body{
     grid-area: contenido;
     background-color: white;
     display: flex;
+    gap: 150px;
+    margin-top: 50px;
 }
 
 #pie{
     grid-area: pie;
     background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
 }
+
+#pie > img{
+    height: 30px;
+    width: 100px;
+}
+
+.identificar{
+    align-self: center;
+}
+
+.menuPrincipal{
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 5px 20px 10px 20px;
+    margin-left: 50px;
+}
+
+.calendario{
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 5px 20px 10px 20px;
+}
+
+.categoriaGeneral{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.categoria{
+    background-color: lightgray;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+}
+
+.categorias{
+    background-color: lightgray;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid green;
+    justify-content: start;
+}
+
+.categorias>img{
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+    margin-top: auto;
+    padding: 0 10px 10px 0;
+}
+
+.categorias > ul >li{
+    color: green;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.categorias > ul >li >span{
+    color: black
+}
+
