@@ -1,0 +1,167 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "logomenu"
+    "contenido"
+    "how";
+}
+
+#logomenu{
+    width:100%;
+    grid-area: logomenu;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#menu{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bolder;
+}
+#opciones{
+    display: flex;
+    flex-direction: row;
+}
+#opciones a{
+    padding: 0 5%;
+    border-right: gray solid 1px;
+    color: black;
+}
+#login{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+#contenido{
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#informacion{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#formulario{
+    background-color: beige;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+#formulario div input{
+    width: 100%;
+}
+#formulario div button{
+    background-color: orangered;
+    color:white;
+    text-align: center;
+}
+#formulario div textarea{
+    height: 80px;
+    width: 100%;
+}
+.titulo{
+    font-weight: bolder;
+}
+#how{
+    grid-area: how;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+
+}
+#paso1{
+    margin-top: 5%;
+}
+#paso2{
+    margin-top: 5%;
+}
+#paso3{
+    margin-top: 5%;
+}
+#carrousel{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    #carrousel{
+        display: flex;
+        gap: 5%;    
+        justify-content: center;
+        width:100%;
+        margin-top: 5%;
+    }
+    .imagen img{
+        width: 25vw;        
+    }
+    #logomenu{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+        "menu login";
+    }
+    #menu{
+        grid-area: menu;
+
+    }
+    #login{
+        grid-area: login;
+        justify-content: left;
+    }
+
+    #login div{
+        border: 1px solid black;
+    }
+
+    #contenido{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+        "informacion formulario";
+        background-image: url("big-leaf-plant-flora.jpg");
+        background-size: cover;
+        width:100%;
+    }
+
+    #formulario{
+        justify-content: left;
+        background-color: transparent;
+        color: white;
+    }
+
+    #informacion{
+        font-size: 1.5em;
+        padding: 5%;
+        color: white;
+    }
+
+
+    
+}
+
+@media screen and (min-width:1024px){
+
+    
+
+}
