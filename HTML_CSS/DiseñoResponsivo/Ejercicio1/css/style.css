@@ -1,11 +1,11 @@
 body{
+    width: 100vw;
     margin: 0;
 }
 
 #wrapper{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh 50vh 40vh;
     grid-template-areas: "cabecera"
                         "contenido"
                         "pie";
@@ -13,23 +13,88 @@ body{
 
 #cabecera{
     grid-area: cabecera;
-    background-color:bisque;
+    background-color:lightskyblue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    
 }
 
 #contenido{
     grid-area: contenido;
-    background-color: aquamarine;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
 }
 
 #pie{
     grid-area: pie;
-    background-color: darkkhaki;
+    background-color: lightgrey;
 }
+
+.letrasTitulo{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic
+}
+
+.botonRegistrar>button{
+    color: white;
+    background-color: rgba(7, 7, 7, 0.788);
+    border-radius: 5px;
+}
+
+.opcionesPie{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 5px;
+    width: 90%;
+    align-self: center;
+}
+
+.opciones{
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+.botonEntrar> button{
+    background-color: transparent;
+    color: white;
+}
+
+
+.subtitulo>h1{
+    color: white;
+    font-size: 40px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup>button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.signup>a{
+    font-size: 10px;
+}
+
 
 @media (min-width: 600px) {
     #wrapper{
         grid-template-columns: 100vw;
-        grid-template-rows: 10vh 30vh 60vh;
         grid-template-areas: "cabecera"
                             "contenido"
                             "pie";
