@@ -133,9 +133,10 @@ body{
     }
 
     #wrapper{
-        grid-template-areas: "cabecera "
-                            "contenido"
-                            "pie";
+        grid-template-columns: 30vw 70vw;
+        grid-template-areas: "cabecera contenido"
+                            "pie pie "
+                            ;
         width: 100vw;
         height: 100vh;
     }
@@ -145,7 +146,7 @@ body{
         grid-area: cabecera;
         background-color:lightskyblue;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
@@ -200,7 +201,7 @@ body{
     .opciones{
         background-color: rgba(255, 255, 255, 0.664);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 5px 10px 5px 10px;
