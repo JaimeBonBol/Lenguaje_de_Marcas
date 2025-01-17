@@ -76,6 +76,7 @@ body{
     justify-content: space-between;
     padding: 5px 10px 5px 10px;
     gap: 10px;
+    border-radius: 5px;
 }
 
 .botonEntrar> button{
@@ -206,6 +207,7 @@ body{
         justify-content: space-between;
         padding: 5px 10px 5px 10px;
         gap: 10px;
+        border-radius: 5px;
     }
     
     .botonEntrar> button{
@@ -338,6 +340,7 @@ body{
         justify-content: space-between;
         padding: 5px 10px 5px 10px;
         gap: 10px;
+        border-radius: 5px;
     }
     
     .botonEntrar> button{
