@@ -380,6 +380,7 @@ body{
         flex-direction: column;  /* Los elementos dentro de cada opción se organizarán en columna */
         align-items: center;  /* Centra los contenidos de cada opción */
         text-align: center;
+        padding-top: 20px;
     }
 
     .opcionPie1{
