@@ -16,7 +16,7 @@ body{
 
 #cabecera{
     grid-area: cabecera;
-    background-color:aquamarine;
+    background-color:black;
     overflow: hidden;
 }
 
@@ -24,6 +24,9 @@ body{
     grid-area: contenido;
     background-color: cadetblue;
     overflow:visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #pie{
@@ -35,4 +38,36 @@ body{
 #contenido img{
     width: 200px;
     height: 200px;
+}
+
+#cabecera header h1{
+    color: white;
+    text-align: center;
+}
+
+#cabecera header p{
+    background-color: white;
+    color: black;
+    text-align: end;
+}
+
+#cabecera nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    color: white;
+    font-size: 20px;
+}
+
+.ultimasNoticias{
+    background-color:antiquewhite;
+    width: 380px;
+    justify-content: start;
+}
+
+.ultimasNoticias li{
+    list-style: none;
+    padding-top: 20px;
+    
 }
