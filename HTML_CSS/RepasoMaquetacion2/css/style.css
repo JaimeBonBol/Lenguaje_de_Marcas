@@ -7,11 +7,14 @@ body{
 
 #wrapper{
     display: grid;
+    grid-template-rows:10fr 30fr 1fr ;
     grid-template-areas: "cabecera"
                         "contenido"
                         "pie";
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #cabecera{
@@ -32,7 +35,6 @@ body{
 #pie{
     grid-area: pie;
     background-color: burlywood;
-    overflow: hidden;
 }
 
 #contenido img{
@@ -60,14 +62,15 @@ body{
     font-size: 20px;
 }
 
-.ultimasNoticias{
+.ultimasNoticias h4{
     background-color:antiquewhite;
-    width: 380px;
-    justify-content: start;
+    justify-content: center ;
+    padding-left: 70px;
 }
 
-.ultimasNoticias li{
+.listaNoticias li{
     list-style: none;
     padding-top: 20px;
-    
+    justify-content: start;
+    padding-right: 30px;
 }
