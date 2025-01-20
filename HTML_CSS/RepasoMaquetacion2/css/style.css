@@ -2,12 +2,11 @@ body{
     height: 100vh;
     width: 100vw;
     margin: 0;
-    overflow: hidden;
 }
 
 #wrapper{
     display: grid;
-    grid-template-rows:10fr 30fr 1fr ;
+    grid-template-rows:10fr 40fr 1fr ;
     grid-template-areas: "cabecera"
                         "contenido"
                         "pie";
@@ -20,27 +19,24 @@ body{
 #cabecera{
     grid-area: cabecera;
     background-color:black;
-    overflow: hidden;
 }
 
 #contenido{
     grid-area: contenido;
-    background-color: cadetblue;
-    overflow:visible;
+    background-color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 300px;
 }
 
 #pie{
     grid-area: pie;
-    background-color: burlywood;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
 
-#contenido img{
-    width: 200px;
-    height: 200px;
-}
 
 #cabecera header h1{
     color: white;
@@ -62,15 +58,83 @@ body{
     font-size: 20px;
 }
 
-.ultimasNoticias h4{
-    background-color:antiquewhite;
-    justify-content: center ;
-    padding-left: 70px;
+.ultimasNoticias {
+    width: 30%;
+    background-color: white;
+    color: white;
+    padding: 10px;
 }
 
-.listaNoticias li{
+.ultimasNoticias h4 {
+    margin-top: 0;
+    text-align: center;
+    background-color: black;
+    padding: 10px ;
+}
+
+.listaNoticias {
     list-style: none;
-    padding-top: 20px;
-    justify-content: start;
-    padding-right: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.listaNoticias li {
+    padding: 10px;
+    color: black;
+}
+
+.listaNoticias .gris {
+    background-color: gray;
+}
+
+.listaNoticias .blanco {
+    background-color: white;
+    color: black;
+}
+
+.listaNoticias li:last-child{
+    height: 300px;
+}
+
+.contenidoCentro{
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    background-color: gray;
+}
+
+.imagenAnonymous{
+    height: 250px;
+    
+    padding: 20px 10px 0 10px;
+}
+
+.contenidoCentro p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenidoZonaPrivada{
+    font-size: 20px;
+    width: 500px;
+}
+
+.contenidoZonaPrivada input{
+    height: 30px;
+    width: 175px;
+}
+
+.contenidoZonaPrivada button{
+    height: 30px;
+    width: 80px;
+}
+
+.contenidoZonaPrivada h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
