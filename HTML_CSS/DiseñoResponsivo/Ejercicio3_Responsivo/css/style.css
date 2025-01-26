@@ -24,6 +24,11 @@ body{
 
 #contenido{
     grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
 
 #formulario{
@@ -34,6 +39,7 @@ body{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 0 20px 0 20px;
 }
 
 .primeraFila{
@@ -55,4 +61,110 @@ body{
     padding: 0 10px 0 10px;
     font-size: 20px;
     color: white;
+}
+ 
+@media (min-width: 600px ){
+    #wrapper{
+        display: grid;
+        grid-template-areas: "cabecera contenido"
+                            "cabecera contenido"
+                            "formulario formulario";
+        background-color: burlywood;
+        height: 100%;
+    }
+
+    #cabecera{
+        grid-area: cabecera;
+        background-color: darkolivegreen;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #formulario{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .primeraFila{
+        writing-mode: sideways-lr;
+        width: 80px;
+        height: 250px;
+    }
+
+    .segundaFila{
+        width: 400px;
+        height: 250px;
+        background-color: rgba(245, 245, 245, 0.719);
+    }
+
+    #contenido{
+        padding-top: 50px;
+        background-color: darkolivegreen;
+        color: white;
+    }
+}
+
+@media(min-width:1000px){
+    #wrapper{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas: "cabecera cabecera"
+                            "contenido formulario"
+                            ;
+        background-color: burlywood;
+        height: 100%;
+    }
+
+    #cabecera{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contenido{
+        grid-area: contenido;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px 0 20px;
+        background-color: burlywood;
+        color: black;
+        padding-top: 50px;
+    }
+    
+    #formulario{
+        grid-area: formulario;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0 20px 0 20px;
+    }
+
+    .primeraFila{
+        text-align: center;
+        background-color: darkolivegreen;
+        padding: 10px 5px 10px 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 93%;
+        writing-mode: horizontal-tb;
+        height: 60px;
+    }
+    
+    .segundaFila{
+        padding-left: 10px;
+        border: 2px solid darkolivegreen;
+        padding-right: 10px;
+        width: 90%;
+        height: 100%;
+        background-color: rgba(245, 245, 245, 0.719);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 }
