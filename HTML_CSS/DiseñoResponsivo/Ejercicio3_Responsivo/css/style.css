@@ -1,0 +1,58 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-areas: "cabecera"
+                        "formulario"
+                        "contenido";
+    background-color: burlywood;
+}
+
+#cabecera{
+    grid-area: cabecera;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#contenido{
+    grid-area: contenido;
+}
+
+#formulario{
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.primeraFila{
+    text-align: center;
+    background-color: darkolivegreen;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    width: 93%;
+}
+
+.segundaFila{
+    padding-left: 10px;
+    border: 2px dashed darkolivegreen;
+    padding-right: 10px;
+    width: 90%;
+}
+
+#titulo{
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    color: white;
+}
