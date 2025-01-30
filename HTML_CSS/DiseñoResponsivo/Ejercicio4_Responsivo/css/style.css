@@ -1,0 +1,138 @@
+body{
+    width: 100vw;
+    margin: 0;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-areas: "cabecera"
+                        "titulo"
+                        "contenido"
+                        "pie";
+    
+}
+
+#cabecera{
+    grid-area: cabecera;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+#titulo{
+    grid-area: titulo;
+    background-color:beige;
+    text-align: center;
+}
+
+
+#contenido{
+    grid-area: contenido;
+    background-color:beige ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto{
+    text-align: center;
+}
+
+#texto>img{
+    width: 300px;
+}
+
+#texto>p{
+    display: none;
+    padding: 10px 20px 10px 20px;
+}
+
+#texto>img:hover + p{
+    display: block;
+}
+
+#pie{
+    grid-area: pie;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#formulario{
+    background-color:beige;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#formulario button {
+    display: block;
+    margin: 10px auto; /* Centra el botón horizontalmente */
+}
+
+@media(min-width:600px){
+    #wrapper{
+        display: grid;
+        grid-template-areas: "cabecera titulo"
+                            "contenido contenido"
+                            "contenido contenido"
+                            "pie pie";
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #contenido{
+        grid-area: contenido;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    #cabecera{
+        height: 170px;
+    }
+
+    #titulo{
+        height: 170px;
+    }
+
+    #texto>img{
+        width: 350px;
+        height: 300px;
+        margin-right: 20px;
+    }
+
+    #texto>p{
+        display: block;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media(min-width:1000px){
+    #wrapper{
+        display: grid;
+        grid-template-areas: "cabecera"
+                            "titulo"
+                            "contenido"
+                            "pie";
+        
+    }
+
+    #contenido{
+        display: flex;
+        flex-direction: row;
+        padding: 20px 50px 20px 0 ;
+    }
+
+    #cabecera{
+        height: 70px;
+    }
+
+    #pie{
+        display: flex;
+        flex-direction: row;
+    }
+}
