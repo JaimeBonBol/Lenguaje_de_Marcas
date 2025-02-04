@@ -1,0 +1,32 @@
+body{
+    width: 94vw;
+    height: 96vh;
+    margin: 2vh 3vw 2vh 3vw;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-areas:"cabecera cabecera"
+                        "contenido formulario"
+                         ;
+}
+
+#cabecera{
+    grid-area: cabecera;
+}
+
+#cabecera>img{
+    width: 100%;
+    height: 50vh;
+}
+
+#contenido{
+    grid-area: contenido;
+    background-color: cadetblue;
+}
+
+#formulario{
+    grid-area: formulario;
+    background-color: chartreuse;
+    height: 100%;
+}
