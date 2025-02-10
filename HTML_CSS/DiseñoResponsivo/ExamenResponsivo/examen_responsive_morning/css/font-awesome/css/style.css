@@ -39,6 +39,7 @@ section{
     display: none;
 }
 
+
 #subcabecera{
     grid-area: subcabecera;
     background-color: rgb(65, 63, 63);
