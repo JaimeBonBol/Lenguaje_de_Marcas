@@ -1,0 +1,29 @@
+// Este comentario no acabará en el CSS final.acabará
+/* Este comentario estará en el código menos en el modo comprimido */
+/*! Y este commentario estará siempre */
+
+//Los colores pertenecen a una paleta armónica.
+$background-color: #211940; //variable
+$font-general-color: #D9B3CA;
+$title-color: #9B87BC;
+@mixin centrado{ //No es necesario para la primera tarea pero es algo realmente potente de esta herramienta
+    margin: 0 auto;
+}
+
+body{
+    $anchoContainer: 75%; //Las variables también pueden ser locales. Esta variables solo se podrá usar en body y sus anidados, pero no fuera.
+    //Si se quisiera usar como variable global, sin necesidad de reestructurar el código, se puede añadir !global al final, y pasaría a ser global.
+    //Por ejemplo, en este caso, $anchoContainer: 75% !global;
+    background-color: $background-color; //uso de variables
+    width: 100%;
+    margin: 0;
+    .container{ //anidación
+        width: $anchoContainer;
+        @include centrado; //incrustado del mixin
+        color: $font-general-color;
+        h1{
+            color: $title-color;
+            text-align: center;
+        }
+    }
+}

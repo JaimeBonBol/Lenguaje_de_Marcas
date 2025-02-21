@@ -1,0 +1,16 @@
+@mixin centrado{ //No es necesario para la primera tarea pero es algo realmente potente de esta herramienta
+    margin: 0 auto;
+}
+
+//Aumentamos nuestro CSS para añadir y aprender estructuras de control.
+@mixin image($size, $avatar: false){
+    width: $size;
+    height: $size;
+    @if $avatar == "true" { //Así realizo una condición. Solo en caso de que el elemento sea un avatar, es cuando le añado un radio.
+        border-radius: math.div($size, 2);
+    } @else if $avatar == "icon" {
+        border: solid 1px white;
+    }else{
+        border: solid 5px $general-color;
+    }
+}

@@ -1,0 +1,61 @@
+/// Estilos para todo el cuerpo
+/// @group Estilos
+body{
+    $anchoContainer: 75%; //Las variables también pueden ser locales. Esta variables solo se podrá usar en body y sus anidados, pero no fuera.
+    //Si se quisiera usar como variable global, sin necesidad de reestructurar el código, se puede añadir !global al final, y pasaría a ser global.
+    //Por ejemplo, en este caso, $anchoContainer: 75% !global;
+    background-color: $background-color; //uso de variables
+    width: 100%;
+    margin: 0;
+    .container{ //anidación
+        width: $anchoContainer;
+        @include centrado; //incrustado del mixin
+        color: $general-color;
+        h1{
+            color: $title-color;
+            text-align: center;
+        }
+        #gato{
+            @include image(200px, $avatar: false);
+        }
+        #perro{
+             @include image(200px, $avatar: true);
+        }
+        .listaIconos{
+        display: flex;
+        flex-wrap: wrap;
+        //Ahora voy a darle estilo a los 3 iconos que quiero mostrar de distintos tamaños. Es muy útil para las querys. Y sí, por supuesto que se puede mezclar todo esto con Media Query.
+        @each $size in $sizes {
+            .icon-#{$size} {
+                font-size: $size;
+                img{
+                    @include image($size, $avatar: icon);
+                }
+            }
+        }
+        }
+    }
+}
+
+
+//Por cuestión de claridad veremos otro conjunto de conceptos a continuación.
+
+/// Estilos para el container con descripcion
+/// @group Estilos
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    @each $nombre, $color in $descripcion {
+        #texto-#{$nombre}{
+            color: $color;
+        }
+    }
+
+}
+
+/// Estilos para el ejemplo del escalado
+/// @group Estilos
+.textoGiganteEscalado{
+    font-size: escalar(600px, 100px, 5);
+    color: white;
+}

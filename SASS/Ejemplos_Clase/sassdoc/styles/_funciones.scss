@@ -1,0 +1,15 @@
+//Nos queda tan solo ver funciones y while, aunque este último tiene la misma lógica que el bucle for.
+/// Funcion para escalar una imagen con un bucle hasta un limite.
+/// @group funciones
+/// @param {Number} $valor - Tamaño de la imagen
+/// @param {Number} $limite - Tamaño límite de la imagen
+/// @param {Number} $disminucion - De cuanto en cuanto disminuirá
+/// @return {Number} '$valor' - El tamaño que debe tener la imagen y que ya haya superado el límite inferior.
+@function escalar($valor, $limite, $disminucion: 2){ //Este bucle recibirá un valor y un límite, y dividirá entre la cantidad indicada hasta que sea correcto el valor
+
+    @while $valor > $limite{
+        $valor: math.div($valor, $disminucion);
+    }
+    @return $valor;
+
+}

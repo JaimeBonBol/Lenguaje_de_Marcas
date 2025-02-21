@@ -1,0 +1,19 @@
+/// Variable para el color del fondo
+/// @group variables
+$background-color: #211940; /// variable
+
+/// Variable para el color general
+/// @group variables
+$general-color: #D9B3CA;
+
+/// Variable para el color de titulo
+/// @group variables
+$title-color: #9B87BC;
+
+/// Variable para todos los tamaños posibles de iconos
+/// @group variables
+$sizes: 10px, 40px, 60px; //Esto es una lista de elementos y podemos utilizarla en los bucles.
+
+/// Map global del proyecto
+/// @group variables
+$descripcion: ("nombre": white, "apellido": red, "edad": orange);

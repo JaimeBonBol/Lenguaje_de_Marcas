@@ -1,0 +1,8 @@
+//Los colores pertenecen a una paleta armónica.
+$background-color: #211940; //variable
+$general-color: #D9B3CA;
+$title-color: #9B87BC;
+$sizes: 10px, 40px, 60px; //Esto es una lista de elementos y podemos utilizarla en los bucles.
+
+//Hemos visto una lista de elementos, pero también existen los Maps con clave y valor, o incluso clave y varios valores. Veremos solo el primer caso, en la documentación de Sass podéis ver el resto.
+$descripcion: ("nombre": white, "apellido": red, "edad": orange);

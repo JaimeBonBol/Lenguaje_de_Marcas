@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* Este comentario estará en el código menos en el modo comprimido */
+/*! Y este commentario estará siempre */
+body {
+  background-color: #211940;
+  width: 100%;
+  margin: 0;
+}
+body .container {
+  width: 75%;
+  margin: 0 auto;
+  color: #D9B3CA;
+}
+body .container h1 {
+  color: #9B87BC;
+  text-align: center;
+}
+body .container #gato {
+  width: 200px;
+  height: 200px;
+}
+body .container #gato else {
+  border: solid 5px #D9B3CA;
+}
+body .container #perro {
+  width: 200px;
+  height: 200px;
+}
+body .container #perro else {
+  border: solid 5px #D9B3CA;
+}
+body .container .listaIconos {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .listaIconos .icon-10px {
+  font-size: 10px;
+}
+body .container .listaIconos .icon-10px img {
+  width: 10px;
+  height: 10px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-10px img else {
+  border: solid 5px #D9B3CA;
+}
+body .container .listaIconos .icon-40px {
+  font-size: 40px;
+}
+body .container .listaIconos .icon-40px img {
+  width: 40px;
+  height: 40px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-40px img else {
+  border: solid 5px #D9B3CA;
+}
+body .container .listaIconos .icon-60px {
+  font-size: 60px;
+}
+body .container .listaIconos .icon-60px img {
+  width: 60px;
+  height: 60px;
+  border: solid 1px white;
+}
+body .container .listaIconos .icon-60px img else {
+  border: solid 5px #D9B3CA;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+.descriptionContainer #texto-nombre {
+  color: white;
+}
+.descriptionContainer #texto-apellido {
+  color: red;
+}
+.descriptionContainer #texto-edad {
+  color: orange;
+}
+
+.textoGiganteEscalado {
+  font-size: 24px;
+  color: white;
+}
+
+.listaCompra li:nth-child(1) {
+  color: red;
+}
+.listaCompra li:nth-child(2) {
+  color: white;
+}
+.listaCompra li:nth-child(3) {
+  color: red;
+}
+.listaCompra li:nth-child(4) {
+  color: white;
+}
+.listaCompra li:nth-child(5) {
+  color: red;
+}
+.listaCompra li:nth-child(6) {
+  color: white;
+}
+.listaCompra li:nth-child(7) {
+  color: red;
+}
+.listaCompra li:nth-child(8) {
+  color: white;
+}
+.listaCompra li:nth-child(9) {
+  color: red;
+}
+.listaCompra li:nth-child(10) {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
