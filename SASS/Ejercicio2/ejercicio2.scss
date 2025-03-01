@@ -1,0 +1,55 @@
+//Variables para asignar colores.
+$verde:#62d121;
+$rojo:#ec1717;
+$rosa:#db31b6;
+$azul:#4ad0da;
+$amarillo:#f5e834;
+$gris:#747070;
+$naranja:#f18d1b;
+$marron:#91644a;
+$verdeOscuro:#195223;
+
+
+//Lista par recoger los colores.
+$colores:($verde, $rojo, $rosa, $azul, $amarillo, $gris, $naranja, $marron, $verdeOscuro);
+
+#cabecera{
+    table{
+
+        text-align: center;
+        border-collapse: collapse;
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            width: 250px;
+        }
+
+        //La variable $i va desde uno hasta la longitud de la lista $colores.
+        @for $i from 1 through length($colores){
+            //Selecciona el elemento de cada iteración.
+            tr:nth-child(#{$i}){
+                background-color:nth($list: $colores, $n: $i); //Selecciona el color $i de la lista $colore.
+            } 
+        }
+    }
+}
+
+// Lista con los tamaños de fuente para los h.
+$etiquetasH: (
+  h1: 150px,
+  h2: 100px,
+  h3: 70px,
+  h4: 40px,
+  h5: 20px,
+  h6: 10px
+);
+
+#pie {
+  // Bucle para asignar los tamaños a cada h.
+  @each $etiqueta, $size in $etiquetasH {
+    #{$etiqueta} {
+      font-size: $size;
+    }
+  }
+}
