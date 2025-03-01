@@ -1,9 +1,0 @@
-//Nos queda tan solo ver funciones y while, aunque este último tiene la misma lógica que el bucle for.
-@function escalar($valor, $limite, $disminucion: 2){ //Este bucle recibirá un valor y un límite, y dividirá entre la cantidad indicada hasta que sea correcto el valor
-
-    @while $valor > $limite{
-        $valor: math.div($valor, $disminucion);
-    }
-    @return $valor;
-
-}
