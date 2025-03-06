@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+#menu {
+    position: sticky;
+    top: 0;
+    background-color: $azul;
+    padding: 10px;
+    text-align: center;
+    
+    a {
+        color: $verdeOscuro;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+    a:hover {
+        color: $gris;
+    }
+}

@@ -1,0 +1,27 @@
+//Variables para asignar colores.
+$verde:#62d121;
+$rojo:#ec1717;
+$rosa:#db31b6;
+$azul:#4ad0da;
+$amarillo:#f5e834;
+$gris:#747070;
+$naranja:#f18d1b;
+$marron:#91644a;
+$verdeOscuro:#195223;
+
+//Lista par recoger los colores.
+$colores:($verde, $rojo, $rosa, $azul, $amarillo, $gris, $naranja, $marron, $verdeOscuro);
+
+// Lista con los tamaños de fuente para los h.
+$etiquetasH: (
+  h1: 150px,
+  h2: 100px,
+  h3: 70px,
+  h4: 40px,
+  h5: 20px,
+  h6: 10px
+);
+
+//Variable para darle un valor a la anchura por defecto 100%. Para que luego dependa del multiplicador que se le
+//aplique en la función.
+$ancho:100%;

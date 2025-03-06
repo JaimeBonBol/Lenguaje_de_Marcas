@@ -1,0 +1,30 @@
+@mixin centrarBloque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bloqueIzquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+@mixin bloqueDerecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+@mixin centrarElementosEnlinea{
+    text-align: center;
+}
+
+@mixin estiloBody{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}

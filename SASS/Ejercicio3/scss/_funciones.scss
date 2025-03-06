@@ -1,0 +1,7 @@
+@use "variables" as *;
+
+@function calcularAnchura($ancho, $multiplicador){
+  
+    @return ($ancho * $multiplicador);
+  
+}

@@ -1,0 +1,44 @@
+@use "variables";
+@use "estructuras_repetitivas";
+@use "funciones";
+@use "mixins";
+@use "menu";
+
+body{
+    @include mixins.estiloBody;
+}
+
+#cabecera {
+    @include mixins.centrarBloque;
+    table{
+        width: calcularAnchura(variables.$ancho, 0.15);
+    }
+}
+
+#pie{
+    @include mixins.bloqueIzquierda;
+}
+
+@media (min-width: 800px) {
+    #cabecera{
+        table{
+            width: funciones.calcularAnchura(variables.$ancho, 1);
+        }
+    }
+
+    #pie{
+        @include mixins.centrarBloque;
+    }
+}
+  
+@media (min-width: 1200px) {
+    #cabecera{
+        table{
+            width: funciones.calcularAnchura(variables.$ancho, 1.5);
+        }
+    }
+
+    #pie{
+        @include mixins.bloqueDerecha;
+    }
+}
