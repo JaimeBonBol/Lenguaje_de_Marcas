@@ -1,3 +1,4 @@
+@use "sass:list";
 //Variables para asignar colores.
 $verde:#62d121;
 $rojo:#ec1717;
@@ -26,10 +27,10 @@ $colores:($verde, $rojo, $rosa, $azul, $amarillo, $gris, $naranja, $marron, $ver
         }
 
         //La variable $i va desde uno hasta la longitud de la lista $colores.
-        @for $i from 1 through length($colores){
+        @for $i from 1 through list.length($colores){
             //Selecciona el elemento de cada iteración.
             tr:nth-child(#{$i}){
-                background-color:nth($list: $colores, $n: $i); //Selecciona el color $i de la lista $colore.
+                background-color:list.nth($list: $colores, $n: $i); //Selecciona el color $i de la lista $colore.
             } 
         }
     }
@@ -50,6 +51,34 @@ $etiquetasH: (
   @each $etiqueta, $size in $etiquetasH {
     #{$etiqueta} {
       font-size: $size;
+    }
+  }
+}
+
+$anchura:100%;
+
+@function calcularAnchura($anchura, $multiplicador){
+  
+  @return $anchura * $multiplicador;
+
+}
+#cabecera{
+  table{
+    width: calcularAnchura($anchura, 0.5);
+  }
+}
+@media (min-width: 600px) {
+  #cabecera{
+    table{
+      width: calcularAnchura($anchura, 1);
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  #cabecera{
+    table{
+      width: calcularAnchura($anchura, 1.5);
     }
   }
 }

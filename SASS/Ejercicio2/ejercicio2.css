@@ -54,4 +54,19 @@
   font-size: 10px;
 }
 
+#cabecera table {
+  width: 50%;
+}
+
+@media (min-width: 600px) {
+  #cabecera table {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) {
+  #cabecera table {
+    width: 150%;
+  }
+}
+
 /*# sourceMappingURL=ejercicio2.css.map */
