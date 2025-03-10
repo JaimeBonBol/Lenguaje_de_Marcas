@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+
+    <div class="fichaJugador">
+        <div id="nombre">Jugador : </div>
+        <div id="stats">
+            <div id="Fuerza">
+                <span>Fuerza</span>
+                <div class="cantidad"></div>
+            </div>
+            <div id="Agilidad">
+                <span>Agilidad</span>
+                <div class="cantidad"></div>
+            </div>
+            <div id="Vida">
+                <span>Vida</span>
+                <div class="cantidad"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const data = localStorage.getItem("userData");
+        console.log("datos: ", JSON.parse(data));
+        const dataParsed = JSON.parse(data);
+
+        document.getElementById("nombre").append(dataParsed.user);
+        document.getElementsByClassName("cantidad")[0].append(dataParsed.stats[0].quantity + ' puntos');
+        document.getElementsByClassName("cantidad")[1].append(dataParsed.stats[1].quantity + ' puntos');
+        document.getElementsByClassName("cantidad")[2].append(dataParsed.stats[2].quantity + ' puntos');
+
+
+    </script>
+</body>
+</html>

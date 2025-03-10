@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <script>
+
+    var userData = {
+    user: "Miguel",
+        stats: [
+        { quantity: 5, name: "Fuerza" },
+        { quantity: 12, name: "Agilidad" },
+        { quantity: 25, name: "Vida" },
+    ],
+    };
+
+    //Esto tiene un problema y es que no podré actualizar los datos almacenados de una manera sencilla.
+    //Sería mucho más óptimo hacer un setItem por cada entrada. Uno por el user ("user", "Miguel"), otro por la fuerza...etc.
+    //Para luego cambiar un valor, bastaría con volver a ejecutar setItem con el nuevo valor, por ejemplo, setItem("user", "nuevoNombre")
+    localStorage.setItem("userData", JSON.stringify(userData));
+
+
+  </script>
+  <h1 style="color: black;">Cargando JSON...</h1>
+  <a href="resultado.html">Continuar</a>
+</body>
+</html>

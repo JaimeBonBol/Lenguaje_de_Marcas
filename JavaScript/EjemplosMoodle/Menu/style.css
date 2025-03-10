@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One);
+
+body{
+
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 25vh 25vw;
+    width: 50vw;
+
+}
+
+#wrapper{
+
+    width: 100%;
+    height: 49vh; /* Poco menos de 50 debido a los 2px de borde */
+    border: aliceblue solid 2px;
+    overflow: hidden;
+}
+
+#menu{
+    height: 10%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido{
+    max-width:100%;
+    height:90%;
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido h1{
+    align-self: center;
+}
+
+#desplegable{
+    background-color: white;
+    opacity: 0.5;
+    display: none;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+
+    animation: growDown 300ms ease-in-out forwards;
+
+}
+
+.menuEnabled{
+    animation: growUp 300ms ease-in-out forwards !important;
+
+}
+
+@keyframes growDown{
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes growUp{
+    0% {
+        transform: scaleY(1);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+
+
+#menu a{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Bowlby One', sans-serif;
+    color: #666;
+    font-size: 2em;
+}
+
+#menu a:hover .glowEffect{
+    color: #fff;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes fadein {
+    from { color: #666; }
+    to { color: #fff; }
+}
+/* Código para los botones */
+button {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+}
+
+.button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}

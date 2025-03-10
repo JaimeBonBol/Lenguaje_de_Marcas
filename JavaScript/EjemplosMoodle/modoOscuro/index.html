@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/darkstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--
+        Podemos hacer esto de dos modos. El primero es algo similar a lo que ya conocéis.
+        Pero podemos utilizar algo nuevo, y de paso aprenderlo.
+        Esto son los "EventListener". La idea principal tras este método darle a un elemento una característica de JavaScript que hará que vigile su estado todo el tiempo.
+        Si cambia su estado, entonces se ejecutará la función que le indiquemos al EventListener.
+    -->
+
+
+    <button onclick="changeTheme()">Click on me, please</button>
+    <i class="fa-solid fa-moon"></i>
+
+    <div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+            <div class='ball'>
+        </label>
+    </div>
+    <script>
+        //Método normal
+        function changeTheme(){
+            if(document.styleSheets[0].disabled === false){
+                document.styleSheets[0].disabled = true;
+                document.styleSheets[1].disabled = false;
+            }else{
+                document.styleSheets[1].disabled = true;
+                document.styleSheets[0].disabled = false;
+            }
+
+        }
+
+        //Método EventListener. No funciona si ponéis el script en la cabecera o antes de la declaración del checkbox
+        //Creamos el Listener
+        const checkbox = document.getElementById('checkbox');
+        let editable = document.getElementById('editable');
+
+        checkbox.addEventListener('change', ()=>{
+            //Y todo esto es lo que hará cuando detecté que sucedió lo que se esperaba
+            if(document.styleSheets[0].disabled === false){
+                document.styleSheets[0].disabled = true;
+                document.styleSheets[1].disabled = false;
+            }else{
+                document.styleSheets[1].disabled = true;
+                document.styleSheets[0].disabled = false;
+            }
+
+
+        })
+    </script>
+</body>
+</html>
