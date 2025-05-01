@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+.div-DOM{
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+.titulo-DOM{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.etiquetas-DOM{
+    background-color: aliceblue;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+#contenido-xml{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#btn{
+    width: 200px;
+    background-color:bisque ;
+    color: black;
+    border-radius: 5px;
+}
