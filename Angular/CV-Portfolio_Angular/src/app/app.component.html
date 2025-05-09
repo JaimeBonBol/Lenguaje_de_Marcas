@@ -1,0 +1,57 @@
+<mat-toolbar color="primary" class="mat-elevation-z4" style="justify-content: space-between;">
+  <span class="fs-1 fw-bold">Software Developer</span>
+  <nav class="d-none d-lg-flex">
+    <a mat-button routerLink="home" routerLinkActive="active" class="fs-4"> <mat-icon>home</mat-icon> Home</a>
+    <a mat-button routerLink="formation" routerLinkActive="active" class="fs-4"> <mat-icon>school</mat-icon> Formation</a>
+    <a mat-button routerLink="experience" routerLinkActive="active" class="fs-4"> <mat-icon>work</mat-icon> Experience</a>
+    <a mat-button routerLink="tech" routerLinkActive="active" class="fs-4"> <mat-icon>devices</mat-icon> Technologies</a>
+    <a mat-button routerLink="more" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> More About Me!</a>
+    <a mat-stroked-button color="accent" href="#contact" class="fs-4" id="talk"> <mat-icon>chat</mat-icon> Let's talk</a>
+  </nav>
+  <!-- Mobile menu toggle (opcional con Angular Material y Angular Animations) -->
+</mat-toolbar>
+
+<div id="contenido-html">
+  <router-outlet></router-outlet>
+</div>
+
+<section id="contact" class="py-5 primary-gradient">
+  <div class="container">
+    <h2 class="mat-display-1 mb-4">Contact Me</h2>
+
+    <div class="d-flex justify-content-between align-items-center gap-4 fs-4">
+      <!-- Email -->
+      <a href="mailto:jaimebb2002@gmail.com" style="text-decoration: none; color: inherit;">
+        <mat-icon style="vertical-align: middle;">mail</mat-icon>
+        <span class="ms-2">jaimebb2002&#64;gmail.com</span>
+      </a>
+
+      <!-- Socials -->
+      <div class="d-flex justify-content-center align-items-center gap-4">
+        <a href="https://github.com/JaimeBonBol" target="_blank">
+          <img style="width: 50px; height: 50px; vertical-align: middle" src=".././assets/images/GitHub-logo.png"
+            alt="GitHub" />
+        </a>
+        <a href="https://www.infojobs.net/candidate/cv/view/index.xhtml" target="_blank">
+          <img style="width: 50px; height: 50px; vertical-align: middle" src=".././assets/images/ijob.png"
+            alt="InfoJobs" />
+        </a>
+      </div>
+
+      <!-- Phone -->
+      <a href="tel:+34605000000" style="text-decoration: none; color: inherit;">
+        <mat-icon style="vertical-align: middle;">phone</mat-icon>
+        <span class="ms-2">605 00 00 00</span>
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-muted mt-5 fs-5" style="color: rgba(255, 255, 255, 0.7);">
+      <small class="d-flex justify-content-center align-items-center gap-2">
+        <mat-icon>copyright</mat-icon>
+        2025 Jaime Bonilla Bolancé | Icons by
+        <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a>
+      </small>
+    </footer>
+  </div>
+</section>
