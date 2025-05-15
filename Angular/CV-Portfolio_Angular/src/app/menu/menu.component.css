@@ -1,0 +1,49 @@
+.pcMenu{
+    display: none;
+}
+
+/* Menú de móvil */
+.movilMenu {
+    display: flex;
+    justify-content: space-between; /* También en móvil si se requiere */
+    align-items: center; /* Alinea los elementos verticalmente */
+    width: 100%;
+}
+
+/* Otras reglas de estilo */
+mat-toolbar {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    height: 15%;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+mat-toolbar>h1 {
+    font-size: 2.5rem;
+    margin: 0; /* Elimina el margen para evitar un espacio adicional */
+}
+
+mat-toolbar>a {
+    font-size: 1.4rem;
+}
+
+@media (min-width : 1080px) {
+    .movilMenu{
+        display: none;
+    }
+    .pcMenu{
+        display: block;
+    }
+
+    /* Menú de PC */
+    .pcMenu {
+        display: flex;
+        justify-content: space-between; /* También en móvil si se requiere */
+        align-items: center; /* Alinea los elementos verticalmente */
+        width: 100%;
+    }
+
+
+}

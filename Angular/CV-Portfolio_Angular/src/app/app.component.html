@@ -1,33 +1,13 @@
-<mat-toolbar>
-    <h1><b>Software Developer</b></h1>
-    <span class="spacer"></span>
-    <a mat-button routerLink="/" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> Home</a>
-    <a mat-button routerLink="/formation" routerLinkActive="active" class="fs-4"> <mat-icon>school</mat-icon> Formation</a>
-    <a mat-button routerLink="/experience" routerLinkActive="active" class="fs-4"> <mat-icon>work</mat-icon> Experience</a>
-    <a mat-button routerLink="/tech" routerLinkActive="active" class="fs-4"> <mat-icon>devices</mat-icon> Technologies</a>
-    <a mat-button routerLink="/more" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> More About Me!</a>
-    <a mat-stroked-button color="accent" href="#contact" class="fs-4" id="talk"> <mat-icon>chat</mat-icon> Let's talk</a>
-</mat-toolbar>
-
-<div class="main-container">
-    <router-outlet></router-outlet>
-</div>
-
-<footer class="footer">
-    <div class="footer-content">
-        <p>© 2025 Jaime Bonilla Bolancé |  Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer"> Icons8</a></p>
-        <div class="social-links">
-            <a href="mailto:tucorreo@example.com" >
-                <mat-icon>email</mat-icon>jaimebb2002&#64;gmail.com
-            </a>
-            <a href="https://github.com/JaimeBonBol" target="_blank" >
-                <img style="height: 30px; width: 30px;" src=".././assets/images/GitHub-logo.png" alt="">     </a>
-            <a href="https://www.infojobs.net/candidate/cv/view/index.xhtml" target="_blank" aria-label="LinkedIn">
-                <img style="height: 30px; width: 30px;" src="../assets/images/ijob.png" />
-            </a>
-            <a href="tel:+34605000000" style="text-decoration: none; color: black;">
-                <mat-icon>phone</mat-icon>  605 00 00 00
-            </a>
-        </div>
+<div class="layout">
+    <div class="menu">
+        <app-menu/>
     </div>
-</footer>
+    
+    <div class="main-container">
+        <router-outlet></router-outlet>
+    </div>
+    
+    <div class="footer">
+        <app-footer/>
+    </div>
+</div>

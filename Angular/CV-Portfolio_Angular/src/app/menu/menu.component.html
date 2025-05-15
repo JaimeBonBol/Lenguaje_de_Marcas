@@ -1,0 +1,25 @@
+<mat-toolbar class="movilMenu">
+    <h1><b>Software Developer</b></h1>
+    <span class="spacer"></span>
+    <a mat-button [matMenuTriggerFor]="menu">Menu</a>
+
+    <mat-menu #menu>
+        <a mat-button routerLink="/" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> Home</a>
+        <a mat-button routerLink="/formation" routerLinkActive="active" class="fs-4"> <mat-icon>school</mat-icon> Formation</a>
+        <a mat-button routerLink="/experience" routerLinkActive="active" class="fs-4"> <mat-icon>work</mat-icon> Experience</a>
+        <a mat-button routerLink="/tech" routerLinkActive="active" class="fs-4"> <mat-icon>devices</mat-icon> Technologies</a>
+        <a mat-button routerLink="/more" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> More About Me!</a>
+        <a mat-stroked-button color="accent" href="#contact" class="fs-4" id="talk"> <mat-icon>chat</mat-icon> Let's talk</a>
+    </mat-menu>
+</mat-toolbar>
+
+<mat-toolbar class="pcMenu">
+    <h1><b>Software Developer</b></h1>
+    <span class="spacer"></span>
+    <a mat-button routerLink="/" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> Home</a>
+    <a mat-button routerLink="/formation" routerLinkActive="active" class="fs-4"> <mat-icon>school</mat-icon> Formation</a>
+    <a mat-button routerLink="/experience" routerLinkActive="active" class="fs-4"> <mat-icon>work</mat-icon> Experience</a>
+    <a mat-button routerLink="/tech" routerLinkActive="active" class="fs-4"> <mat-icon>devices</mat-icon> Technologies</a>
+    <a mat-button routerLink="/more" routerLinkActive="active" class="fs-4"> <mat-icon>person</mat-icon> More About Me!</a>
+    <a mat-stroked-button color="accent" href="#contact" class="fs-4" id="talk"> <mat-icon>chat</mat-icon> Let's talk</a>
+</mat-toolbar>

@@ -1,91 +1,36 @@
-/*.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}*/
-
+/* Asegura que html y body ocupen toda la altura */
 html, body {
   height: 100%;
-  margin: 0; /* Elimina márgenes predeterminados */
-}
-
-.spacer {
-  flex: 1 1 auto;
-}
-
-mat-toolbar {
-  position: -webkit-sticky;
-  position: fixed;
-  top: 0px;
-  z-index: 1000;
-  flex-wrap: wrap;
-  height: 15%;
-}
-
-mat-toolbar>h1{
-  font-size: 2.5rem;
-}
-
-mat-toolbar>a{
-  font-size: 1.4rem;
-}
-
-.main-container {
-  padding-top: 2rem;
-}
-
-.main-container {
+  margin: 0;
   display: flex;
-  flex-direction: column;  /* Coloca los elementos (contenido y footer) en columna */
-  min-height: 100%;        /* El contenedor ocupa toda la altura */
+  flex-direction: column;
 }
 
-footer {
-  background-color: #333;  /* Color de fondo del footer */
-  color: white;            /* Color de texto blanco */
+/* Layout que reparte el espacio */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Fija el menú arriba */
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white; /* O el color que uses */
+}
+
+/* El contenido ocupa el espacio restante */
+.main-container {
+  flex: 1;  /* Permite que ocupe el espacio disponible */
+  overflow-x: hidden;  /* Elimina el desbordamiento horizontal */
+  width: 100%;
+}
+
+/* Footer fijo abajo si hay poco contenido */
+.footer {
+  background-color: #f0f0f0;
   padding: 1rem;
   text-align: center;
-  width: 100%;
-  margin-top: auto; /* Esto empuja el footer al fondo cuando el contenido es corto */
-}
-
-
-.footer {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 3rem 0 3rem 0;
-  border-top: 1px solid #ccc;
-}
-
-
-.footer-content p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.social-links {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 3.5rem;
-  flex-wrap: wrap;
-}
-
-.social-links a img {
-  width: 24px;
-  height: 24px;
-}
-
-.social-links a {
-  display: flex;
-  align-items: center; 
-  gap: 0.5rem;  
-  font-size: 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.social-links a:hover {
-  transform: scale(1.1);
 }

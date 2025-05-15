@@ -1,0 +1,52 @@
+footer {
+    background-color: #333;
+    /* Color de fondo del footer */
+    color: white;
+    /* Color de texto blanco */
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    /* Esto empuja el footer al fondo cuando el contenido es corto */
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.footer-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links a img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
