@@ -1,8 +1,22 @@
 .formation-container {
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding-top: 7%;
-    width: 98vw;
-    padding-bottom: 4rem;
+    margin-top: 8rem;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-size: 42px; /* Define el tamaño del texto del título */
+    background: linear-gradient(90deg, #3f51b5, #7986cb);  /* Aplica un degradado horizontal de azul oscuro a azul claro como fondo */
+    -webkit-background-clip: text;  /* Recorta el fondo (degradado) para que solo se vea dentro del texto */
+    -webkit-text-fill-color: transparent;  /* Hace el texto transparente para que el degradado de fondo se vea a través de él */
+    font-weight: bold; /* Establece el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);  /* Añade una sombra suave al texto para mejorar la legibilidad */
 }
 
 .formation-card {
@@ -11,25 +25,22 @@
     width: 70%;
     margin-bottom: 4rem;
     padding: 1rem 0 0.5rem 0;
+    background-color: #e8eaf6;
 }
 
 mat-card-title h2{
-    font-size: 1.5rem;  /* Aumenta el tamaño de la fuente */
     text-align: center; /* Centra el título */
-    margin-bottom: 1rem; /* Ajusta el espacio debajo del título */
+    color: #1a237e;
+    font-size: 30px;
+    margin-bottom: 35px;
 }
   
-  
-
-mat-card-header {
-    background-color: #f5f5f5;
-}
-
-mat-card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
 
 mat-card-content {
-    padding: 1rem;
+  font-size: 20px;
+}
+
+mat-card-footer{
+    font-size: 18px;
+    color: #555;
 }

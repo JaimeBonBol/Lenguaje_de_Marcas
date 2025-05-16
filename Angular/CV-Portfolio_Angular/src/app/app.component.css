@@ -26,6 +26,7 @@ html, body {
   flex: 1;  /* Permite que ocupe el espacio disponible */
   overflow-x: hidden;  /* Elimina el desbordamiento horizontal */
   width: 100%;
+  padding-top: 3rem;
 }
 
 /* Footer fijo abajo si hay poco contenido */

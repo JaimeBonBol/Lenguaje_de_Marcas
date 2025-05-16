@@ -2,13 +2,31 @@
     display: none;
 }
 
+
 /* Menú de móvil */
 .movilMenu {
     display: flex;
     justify-content: space-between; /* También en móvil si se requiere */
     align-items: center; /* Alinea los elementos verticalmente */
     width: 100%;
+    font-size: 32px;
 }
+
+.menu-item {
+  font-size: 18px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espacio entre icono y texto */
+  color: black;
+}
+
+.menu-item mat-icon {
+  font-size: 24px;
+  color: black; /* o el color que uses en tu tema */
+}
+
+
 
 /* Otras reglas de estilo */
 mat-toolbar {

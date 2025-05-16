@@ -1,0 +1,36 @@
+<div class="technologies-container">
+  <div class="title">
+    <h1>Technologies</h1>
+    <h2>Knowledge I am developing about</h2>
+  </div>
+
+  <div class="tech-grid">
+    <div *ngFor="let tech of technologies" class="tech-card">
+      <img [src]="tech.image" alt="{{ tech.name }}" class="tech-image" />
+      <p class="tech-name">{{ tech.name }}</p>
+    </div>
+  </div>
+
+  <div class="subtitle">
+    <h2>Technologies that I use</h2>
+  </div>
+
+  <div class="tech2-grid">
+    <div *ngFor="let tech2 of technologies2" class="tech-card">
+      <img [src]="tech2.image" alt="{{ tech2.name }}" class="tech-image" />
+      <p class="tech-name">{{ tech2.name }}</p>
+    </div>
+  </div>
+
+  <div class="subtitleOS">
+    <h2>Operating Systems</h2>
+  </div>
+
+  <div class="OS-grid">
+    <div *ngFor="let os of operatingSystems" class="tech-card">
+      <img [src]="os.image" alt="{{ os.name }}" class="tech-image" />
+      <p class="tech-name">{{ os.name }}</p>
+    </div>
+  </div>
+
+</div>
