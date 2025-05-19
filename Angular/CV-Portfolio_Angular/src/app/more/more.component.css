@@ -1,5 +1,4 @@
 .more-about-me-container {
-  background-color: #f5f7fa;
   padding: 4rem 2rem;
   text-align: center;
   margin-top: 4rem;
@@ -27,18 +26,19 @@
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 2.5rem;
   justify-items: center;
 }
 
 .about-card {
-  background: white;
+  background-color: #e8eaf6;
   border-radius: 16px;
   padding: 2rem;
-  max-width: 300px;
+  width: 350px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transition: transform 0.25s ease;
+  margin-bottom: 3rem;
 }
 
 .about-card:hover {
@@ -53,7 +53,7 @@
 
 .about-card h3 {
   font-size: 1.3rem;
-  color: #333;
+  color: #1a237e;
   margin-bottom: 0.5rem;
 }
 
