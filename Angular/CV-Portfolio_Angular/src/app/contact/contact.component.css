@@ -1,9 +1,14 @@
-.contact-container{
-    margin-top: 3rem;
+.contact-container {
+  max-width: 600px;
+  margin: 7rem auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title{
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -15,4 +20,54 @@
     -webkit-text-fill-color: transparent;  /* Hace el texto transparente para que el degradado de fondo se vea a través de él */
     font-weight: bold; /* Establece el texto en negrita */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);  /* Añade una sombra suave al texto para mejorar la legibilidad */
+}
+
+/* Título */
+.contact-container .title h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Etiquetas */
+.form-contact label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Campos de entrada */
+.form-contact input,
+.form-contact textarea {
+  width: 90%;
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Botón */
+.form-contact button {
+  background-color: #007bff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Botón al pasar el mouse */
+.form-contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Centrado */
+.text-center {
+  text-align: center;
 }
