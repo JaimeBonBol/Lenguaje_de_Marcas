@@ -1,0 +1,18 @@
+.contact-container{
+    margin-top: 3rem;
+}
+
+.title{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-size: 42px; /* Define el tamaño del texto del título */
+    background: linear-gradient(90deg, #3f51b5, #7986cb);  /* Aplica un degradado horizontal de azul oscuro a azul claro como fondo */
+    -webkit-background-clip: text;  /* Recorta el fondo (degradado) para que solo se vea dentro del texto */
+    -webkit-text-fill-color: transparent;  /* Hace el texto transparente para que el degradado de fondo se vea a través de él */
+    font-weight: bold; /* Establece el texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);  /* Añade una sombra suave al texto para mejorar la legibilidad */
+}

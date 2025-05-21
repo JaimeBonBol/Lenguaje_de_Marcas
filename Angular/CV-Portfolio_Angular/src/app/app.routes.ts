@@ -5,6 +5,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { TechComponent } from './tech/tech.component';
 import { MoreComponent } from './more/more.component';
 import { SecundariaComponent } from './secundaria/secundaria.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,5 +14,5 @@ export const routes: Routes = [
   { path: 'experience', component: ExperienceComponent },
   { path: 'tech', component: TechComponent },
   { path: 'more', component: MoreComponent },
-
+  { path: 'contact', component: ContactComponent}
 ];
